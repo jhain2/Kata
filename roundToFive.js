@@ -2,7 +2,8 @@
 // with each member of input array rounded to a nearest number, divisible by 5.
 
 function roundToFive(numberArray){
-    return numberArray.map(individualNumber => 5 * Math.round(individualNumber/5));
+    const roundedToFiveArray = numberArray.map(individualNumber => 5 * Math.round(individualNumber/5));
+    return roundedToFiveArray;
 }
 
 //Sample Test
